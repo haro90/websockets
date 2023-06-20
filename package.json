@@ -1,0 +1,19 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "- Agregar producto: `POST /api/products`\r - Ver productos: `GET /api/products`\r - Buscar producto por ID: `GET /api/products/:id`\r - Actualizar producto: `PUT /api/products/:id`\r - Eliminar producto: `DELETE /api/products/:id`",
+  "main": "cart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.6.2"
+  }
+}

@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Lista de productos</title>
+  </head>
+  <body>
+    <h1>Directorio raiz</h1>
+    <ul>
+      {{#each products}}
+        <li>{{title}} - {{price}}</li>
+      {{/each}}
+    </ul>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io();
+    </script>
+  </body>
+</html>
